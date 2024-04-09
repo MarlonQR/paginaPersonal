@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Audiowide', sans-serif;
+    border-style: hidden hidden solid;
+
+    
+    
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header::before{
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #f2d91e;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 #000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+.enlaces-header{
+    font-weight: 300;
+    margin: auto;
+    transition: all ease-in-out .6s;
+}
+
+.nav .enlaces-header a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+a{
+    font-size: "";
+
+}
+
+.nav .enlaces-header a:hover{
+    color: #FDB911;
+    background-color: #000;
+    border-color: #dbb405;
+    transition: all ease-in-out .6s;
+
+}
+
+.titulospro{
+    text-align: left;
+    margin: 20px 0;
+
+}
+.contenido-header{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contenido-header > img{
+    width: 400px;
+    height: 300px;
+    animation: ease-in animacion 0.5s;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+@keyframes animacion{
+    0%{
+       transform: scale(0);
+
+    }100%{
+        transform: scale(1);
+    }
+}
+
+.textos-header{
+    margin: 0 0 0 30px;
+    color: #000;
+
+}
+.contenido-header{
+    font-weight: 300;
+    margin-top: 14px;
+    color: #FDB911;
+    text-align: justify;
+}
+
+.contenido-header a{
+    margin: 28px 0 0 0;
+    width: 150px;
+    display: inline-block;
+    background-color: #FDB911;
+    text-align: center;
+    color: black;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px rgba(18, 26, 61, 0.46);
+}
