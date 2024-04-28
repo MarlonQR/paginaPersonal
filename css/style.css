@@ -14,7 +14,7 @@ body{
 h1{
     font-size: 50px;
     font-family: 'Audiowide', sans-serif;
-    /* border-style: hidden hidden solid; */
+     border-style: hidden hidden solid;
 
     
     
@@ -45,21 +45,37 @@ nav{
 
 .nav{
     display: flex;
-    height: 100px;
+    height: 80px;
     width: 100%;
     align-items: center;
 }
 
-a{
-    font-size: "";
+.enlaces-header{
+    font-weight: 300;
+    margin: auto;
+    transition: all ease-in-out .6s;
+}
+
+
+
+
+.enlaces-header > a{
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 10px;   
+}
+
+.enlaces-header >a:hover{
+    color: #FDB911;
+    background-color: #000;
+    border-color: #000;
+    transition: all ease-in-out .6s;
 
 }
 
-.titulospro{
-    text-align: left;
-    margin: 20px 0;
 
-}
 .contenido-header{
     width: 80%;
     height: 600px;
@@ -119,7 +135,7 @@ a{
 }
 .contenedor-nav{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 29px;
     
 }
 
@@ -127,13 +143,22 @@ a{
 
 /* XXXXXXXXXXXXXXXXXXX CARS XXXXXXXXXXXXXXXXXXXX*/
 .titletoyota{
-    margin-top: 50px;
+    margin-top: 30px;
     display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
     border-style: hidden hidden solid;
+    
 }
+.titletoyota >img{
+    width: 500px;
+    height: auto;
+    
+
+}
+
+
 .cars{
     background-color: #f2d91e;
 }
@@ -167,16 +192,26 @@ a{
 
 }
 .textos-cars >img{
-    margin-top:50px;
+    margin-top: -30px;
     margin-left: -30px;
 }
 .cruiser >img{
-    margin-top: 10px;
+    margin-top: -60px;
     margin-left: -15px;
 }
 .land > img{
-    margin-top: 100px;
+    margin-top: 30px;
 
+}
+.cross >img{
+    margin-top: -35px;
+    margin-left: -40px;
+}
+.runner{
+    margin-top: -65px;
+}
+.rav4{
+    margin-top: 20px;
 }
    
    
