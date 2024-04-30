@@ -142,6 +142,8 @@ nav{
 
 
 /* XXXXXXXXXXXXXXXXXXX CARS XXXXXXXXXXXXXXXXXXXX*/
+
+/* XXXXXXXXXXXXXXXXXXXXXX TOYOTA XXXXXXXXXXXXXXXXXXXXXXXX */
 .titletoyota{
     margin-top: 30px;
     display: block;
@@ -168,6 +170,10 @@ nav{
     flex-wrap: wrap;
     margin-bottom: 50px;
     justify-content: space-around;
+   
+    border-radius: 0px;
+    box-shadow: 0 8px 12px rgba(18, 26, 61, 0.46);
+
     
 }
 .textos-cars {
@@ -214,4 +220,45 @@ nav{
     margin-top: 20px;
 }
    
+        /* XXXXXXXXXXXXXXXXXXXXXXXXXXXX CHEVROLET XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.titlechevrolet{
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    border-style: hidden hidden solid;
+    border-top: 100hv;
    
+    
+    
+}
+.titlechevrolet >img{
+    width: 400px;
+    height: auto;
+}
+   
+.blazer{
+    margin-top: 50px;
+    margin-left: -80px;
+}
+.silverado{
+    margin-top: 30px;
+    margin-left: -60px;
+}
+.tahoe{
+    margin-top: 60px;
+    margin-left: -25px;
+}
+.colorado{
+    margin-left: -40px;
+    margin-top: 50px;
+}
+.tracker{
+    margin-top: 35px;
+    margin-left: -20px;
+}
+.montana{
+    margin-top: 45px;
+    margin-left: -75px;
+}
