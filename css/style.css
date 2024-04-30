@@ -168,9 +168,9 @@ nav{
 .contenido-cars {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    
     justify-content: space-around;
-   
+    
     border-radius: 0px;
     box-shadow: 0 8px 12px rgba(18, 26, 61, 0.46);
 
@@ -178,12 +178,13 @@ nav{
 }
 .textos-cars {
     width: 30%;
-    background-color: #fff;
+    background-color: #ffffff;
     margin-top: 20px;
     border-radius: 10px;
     padding: 45px 30px 60px 30px;
     transition: all ease-in-out .5s;
     font-family: 'Audiowide', sans-serif;
+    margin-bottom: 50px;
 }
 
 .textos-cars:hover{
@@ -222,7 +223,7 @@ nav{
    
         /* XXXXXXXXXXXXXXXXXXXXXXXXXXXX CHEVROLET XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 .titlechevrolet{
-    margin-top: 30px;
+    margin-top: 70px;
     display: block;
     width: 100%;
     text-align: center;
