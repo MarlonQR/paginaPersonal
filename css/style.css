@@ -24,7 +24,8 @@ body{
 }
 
 .color-div {
-    background: rgba(0,0,0,.5);
+    /* background: rgba(0,0,0,.5); */
+    backdrop-filter: brightness(30%);
     
 }
 
@@ -78,6 +79,28 @@ nav{
     margin: auto;
     transition: all ease-in-out .6s;
 }
+.hamburguer{
+    color: #000;
+    width: 80px;
+    height: 80px;
+    display: none ;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: color .5s ease-in;
+    
+}
+
+.hamburguer > i{
+    font-size: 25px;
+    line-height: 80px;
+    
+}
+
+.icons{
+    
+    display: flex;
+}
 
 
 
@@ -96,6 +119,13 @@ nav{
     border-color: #000;
     transition: all ease-in-out .6s;
     border-radius: 50px;
+
+}
+.enlaces-header > button{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+    width: 120px;
 
 }
 
@@ -167,6 +197,12 @@ nav{
     margin-top: 29px;
     
 }
+
+
+
+
+
+
 
 
 
@@ -292,4 +328,53 @@ nav{
 .montana{
     margin-top: 45px;
     margin-left: -75px;
+}
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXX FORD XXXXXXXXXXXXXXXXXXXXXX*/
+
+
+.titleford{
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    border-style: hidden hidden solid;
+    
+}
+.titleford >img{
+    width: 500px;
+    height: auto;
+    margin-bottom: -130px;
+    margin-top: -100px;
+    
+
+}
+
+.ranger{
+    margin-top: 30px;
+}
+.raptor{
+
+}
+.explorer{
+    margin-top: -10px;
+
+}
+.expedition{
+    margin-top: 30px;
+    margin-left: -20px;
+
+}
+.bronco{
+    margin-top: -20px;
+    margin-left: -20px;
+
+}
+.escape{
+    margin-top: 35px;
+    margin-left: -13px;
+
 }
