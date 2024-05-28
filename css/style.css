@@ -344,37 +344,37 @@ header::before{
     
 }
 .titleford > img {
-    width: 50%; /* Ajusta según el contenedor principal */
+    width: 50%; 
     height: auto;
-    margin-bottom: -10%; /* Aproximado del -130px */
-    margin-top: -15%; /* Aproximado del -100px */
+    margin-bottom: -10%; 
+    margin-top: -15%; 
 }
 
 .ranger {
-    margin-top: 3%; /* Aproximado del 30px */
+    margin-top: 3%; 
 }
 
-.raptor {
-    /* No se especifica margen, por lo que se deja vacío */
-}
+/* .raptor {
+   
+}*/
 
 .explorer {
-    margin-top: -1%; /* Aproximado del -10px */
+    margin-top: -1%; 
 }
 
 .expedition {
-    margin-top: 3%; /* Aproximado del 30px */
-    margin-left: -2%; /* Aproximado del -20px */
+    margin-top: 3%; 
+    margin-left: -2%; 
 }
 
 .bronco {
-    margin-top: -2%; /* Aproximado del -20px */
-    margin-left: -2%; /* Aproximado del -20px */
+    margin-top: -2%; 
+    margin-left: -2%; 
 }
 
 .escape {
-    margin-top: 3.5%; /* Aproximado del 35px */
-    margin-left: -1.5%; /* Aproximado del -13px */
+    margin-top: 3.5%; 
+    margin-left: -1.5%; 
 }
 
 
