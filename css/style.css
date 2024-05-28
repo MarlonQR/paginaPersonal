@@ -7,13 +7,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
 }
 
-
-nav{
+nav {
     width: 100%;
     height: 80px;
     background-color: #f2d91e;
@@ -24,68 +23,43 @@ nav{
     z-index: 100;
 }
 
-.nav{
+.nav {
     display: flex;
     height: 80px;
     width: 100%;
     align-items: center;
 }
 
-.enlaces-header{
+.enlaces-header {
     font-weight: 300;
     margin: auto;
     transition: all ease-in-out .6s;
 }
 
-/* .hamburguer{
-    color: #000;
-    width: 80px;
-    height: 80px;
-    display: none ;
-    text-align: center;
-    z-index: 100;
-    cursor: pointer;
-    transition: color .5s ease-in;
-    
-}
-
-.hamburguer > i{
-    font-size: 25px;
-    line-height: 80px;
-    
-} */
-
-
-
-
-
-
-.enlaces-header > a{
+.enlaces-header>a {
     color: #000000;
     text-decoration: none;
     margin-left: 20px;
     padding: 12px;
-    border-radius: 10px;   
+    border-radius: 10px;
 }
 
-.enlaces-header >a:hover{
+.enlaces-header>a:hover {
     color: #FDB911;
     background-color: #000;
     border-color: #000;
     transition: all ease-in-out .6s;
     border-radius: 50px;
-    
 }
-.enlaces-header > button{
+
+.enlaces-header>button {
     margin-right: 50px;
     margin-left: 50px;
     border-radius: 5px;
     width: 120px;
-    
 }
 
-
-.contenido-header{
+.contenido-header {
     width: 80%;
     height: 600px;
     display: flex;
@@ -95,7 +69,7 @@ nav{
     margin: 0 auto;
 }
 
-.contenido-header > img{
+.contenido-header>img {
     width: 400px;
     height: 300px;
     animation: ease-in animacion 0.5s;
@@ -103,79 +77,76 @@ nav{
     border-radius: 50%;
 }
 
-@keyframes animacion{
-    0%{
+@keyframes animacion {
+    0% {
         transform: scale(0);
-        
-    }100%{
+
+    }
+
+    100% {
         transform: scale(1);
     }
 }
 
-.textos-header{
+.textos-header {
     margin: 0 0 0 30px;
     color: #000;
-    
 }
-.textos-header > h1{
+
+.textos-header>h1 {
     border-style: hidden hidden solid;
-    
 }
 
 .container {
     width: 100%;
     background-image: url(../img/fondo.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;   
-    
+    background-size: cover;
 }
 
 .color-div {
     /* background: rgba(0,0,0,.5); */
     backdrop-filter: brightness(30%);
-    
 }
 
-.contenedor{
+.contenedor {
     width: 100%;
     max-width: 1400px;
     margin: auto;
     overflow: hidden;
-    
 }
 
-h1{
+h1 {
     font-size: 50px;
     font-family: 'Audiowide', sans-serif;
-     border-style: hidden hidden solid;
+    border-style: hidden hidden solid;
     opacity: 1;
     color: #fff;
-  
 }
 
-.textos-header > h3 {
+.textos-header>h3 {
     color: #fff;
 }
 
-
-header::before{
+header::before {
     content: "";
     display: block;
     margin-bottom: 80px;
 }
-.titulospro>h3{
+
+.info-empresa>h3 {
     color: #fff;
 }
 
-.contenido-header{
+.contenido-header {
     font-weight: 300px;
     margin-top: 14px;
     color: #FDB911;
     text-align: justify;
 }
 
-.contenido-header a{
+.contenido-header a {
     margin: 28px 0 0 0;
     width: 150px;
     display: inline-block;
@@ -190,56 +161,46 @@ header::before{
     border-radius: 5px;
     box-shadow: 0 8px 12px rgba(18, 26, 61, 0.46);
 }
-.contenedor-nav{
+
+.contenedor-nav {
     display: flex;
     text-align: center;
     margin-top: 29px;
-    
 }
-
-
-
-
-
-
 
 
 
 /* XXXXXXXXXXXXXXXXXXX CARS XXXXXXXXXXXXXXXXXXXX*/
 
 /* XXXXXXXXXXXXXXXXXXXXXX TOYOTA XXXXXXXXXXXXXXXXXXXXXXXX */
-.titletoyota{
+.titletoyota {
     margin-top: 30px;
     display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
     border-style: hidden hidden solid;
-    
 }
-.titletoyota >img{
+
+.titletoyota>img {
     width: 500px;
     height: auto;
-    
-
 }
 
-
-.cars{
+.cars {
     background-color: #f2d91e;
 }
 
 .contenido-cars {
     display: flex;
     flex-wrap: wrap;
-    
+
     justify-content: space-around;
-    
+
     border-radius: 0px;
     box-shadow: 0 8px 12px rgba(18, 26, 61, 0.46);
-
-    
 }
+
 .textos-cars {
     width: 30%;
     background-color: #ffffff;
@@ -251,43 +212,46 @@ header::before{
     margin-bottom: 50px;
 }
 
-.textos-cars:hover{
-    box-shadow: 0 4px 10px rgb(17,29,48);
+.textos-cars:hover {
+    box-shadow: 0 4px 10px rgb(17, 29, 48);
     color: #f2d91e;
     background-color: #000;
     transition: .5s;
-    
 }
 
-.textos-cars >h3{
+.textos-cars>h3 {
     margin-bottom: 20px;
-
 }
-.textos-cars >img{
+
+.textos-cars>img {
     margin-top: -30px;
     margin-left: -30px;
 }
-.cruiser >img{
+
+.cruiser>img {
     margin-top: -60px;
     margin-left: -15px;
 }
-.land > img{
-    margin-top: 30px;
 
+.land>img {
+    margin-top: 30px;
 }
-.cross >img{
+
+.cross>img {
     margin-top: -35px;
     margin-left: -40px;
 }
-.runner{
+
+.runner {
     margin-top: -65px;
 }
-.rav4{
+
+.rav4 {
     margin-top: 20px;
 }
-   
-        /* XXXXXXXXXXXXXXXXXXXXXXXXXXXX CHEVROLET XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-.titlechevrolet{
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXX CHEVROLET XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.titlechevrolet {
     margin-top: 70px;
     display: block;
     width: 100%;
@@ -295,36 +259,39 @@ header::before{
     margin-bottom: 50px;
     border-style: hidden hidden solid;
     border-top: 100hv;
-   
-    
-    
 }
-.titlechevrolet >img{
+
+.titlechevrolet>img {
     width: 400px;
     height: auto;
 }
-   
-.blazer{
+
+.blazer {
     margin-top: 50px;
     margin-left: -80px;
 }
-.silverado{
+
+.silverado {
     margin-top: 30px;
     margin-left: -60px;
 }
-.tahoe{
+
+.tahoe {
     margin-top: 60px;
     margin-left: -25px;
 }
-.colorado{
+
+.colorado {
     margin-left: -40px;
     margin-top: 50px;
 }
-.tracker{
+
+.tracker {
     margin-top: 35px;
     margin-left: -20px;
 }
-.montana{
+
+.montana {
     margin-top: 45px;
     margin-left: -75px;
 }
@@ -334,24 +301,24 @@ header::before{
 /*XXXXXXXXXXXXXXXXXXXXX FORD XXXXXXXXXXXXXXXXXXXXXX*/
 
 
-.titleford{
+.titleford {
     margin-top: 3%;
     display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 5%;
     border-style: hidden hidden solid;
-    
 }
-.titleford > img {
-    width: 50%; 
+
+.titleford>img {
+    width: 50%;
     height: auto;
-    margin-bottom: -10%; 
-    margin-top: -15%; 
+    margin-bottom: -10%;
+    margin-top: -15%;
 }
 
 .ranger {
-    margin-top: 3%; 
+    margin-top: 3%;
 }
 
 /* .raptor {
@@ -359,27 +326,25 @@ header::before{
 }*/
 
 .explorer {
-    margin-top: -1%; 
+    margin-top: -1%;
 }
 
 .expedition {
-    margin-top: 3%; 
-    margin-left: -2%; 
+    margin-top: 3%;
+    margin-left: -2%;
 }
 
 .bronco {
-    margin-top: -2%; 
-    margin-left: -2%; 
+    margin-top: -2%;
+    margin-left: -2%;
 }
 
 .escape {
-    margin-top: 3.5%; 
-    margin-left: -1.5%; 
+    margin-top: 3.5%;
+    margin-left: -1.5%;
 }
 
-
-
-.icons{
+.icons {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -390,69 +355,69 @@ header::before{
     border-radius: 0px;
 }
 
-.ig{
+.ig {
     display: flex;
     justify-content: center;
     color: #e4196d;
     border: 2px solid #e4196d;
     width: 100%;
     padding: 7px;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
-.ig:hover{
+.ig:hover {
     background-color: #e4196d;
     color: #000;
     transition: ease-in-out .2s;
-
 }
-.facebook{
+
+.facebook {
     display: flex;
     justify-content: center;
     color: rgb(0, 26, 255);
-    border: 2px solid  rgb(0, 26, 255);
+    border: 2px solid rgb(0, 26, 255);
     width: 100%;
     padding: 7px;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
-.facebook:hover{
-    background-color:  rgb(0, 26, 255);
+.facebook:hover {
+    background-color: rgb(0, 26, 255);
     color: #000;
     transition: ease-in-out .2s;
-
 }
-.whats{
+
+.whats {
     display: flex;
     justify-content: center;
     color: green;
     border: 2px solid green;
     width: 100%;
     padding: 7px;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
-.whats:hover{
+.whats:hover {
     background-color: green;
     color: #000;
     transition: ease-in-out .2s;
 
 }
-.twit{
+
+.twit {
     display: flex;
     justify-content: center;
     color: white;
     border: 2px solid white;
     width: 100%;
     padding: 7px;
-    border-radius:5px;
+    border-radius: 5px;
 }
-.twit:hover{
+
+.twit:hover {
     background-color: #fff;
     color: #000;
     transition: ease-in-out .2s;
-    
-
 }
 
 
@@ -460,41 +425,41 @@ header::before{
 
 
 
-/* /////////////////////////ATENCION/////////////////////////////// */
+/* /////////////////////////CREA TU CUENTA/////////////////////////////// */
 
-
-body.body2{
-    
-        background-image: url(../img/fondo.jpg);
-        background-repeat:no-repeat;
-        background-position: center center;
-        background-size: cover;  
-        height: 400px;
+.container2{
+    padding-top: 50px;
+    width: 100%;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
 }
 
 
-.nav{
+
+.nav {
     display: flex;
     height: 80px;
     width: 100%;
     align-items: center;
 }
+
 #section_cuenta {
     padding: 20px;
     max-width: 600px;
     margin-left: 28%;
-    margin-top: 160px;
-    background-color: #f2d91e  ;
+    margin-top: 40px;
+    background-color: #f2d91e;
     border: 2px solid #000;
     border-radius: 15px;
-
 }
 
 h2 {
     color: #000;
     text-align: center;
     font-family: 'Audiowide', sans-serif;
-
 }
 
 
@@ -505,33 +470,102 @@ label {
     border-radius: 5px;
 }
 
-.formulario{
+.formulario {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 550px;
     height: 300px;
     font-family: 'Audiowide', sans-serif;
-    
 }
 
-.crear_cuenta{
+.crear_cuenta {
     margin-top: 30px;
     padding: 5px;
     border-radius: 15px;
     color: #000;
     background-color: #fff;
     font-family: 'Audiowide', sans-serif;
-
-
 }
-.crear_cuenta:hover{
+
+.crear_cuenta:hover {
     color: #FDB911;
     background-color: #000;
     cursor: pointer;
     font-family: 'Audiowide', sans-serif;
     transition: ease-in-out .5s;
+}
 
 
+
+/* //////////////////////////FINANCIAR///////////////////////// */
+
+.financiacion{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FDB911;
+    width: 100%    ;
+    height: 800px;
+    padding-top: 50px;
+}
+.financiacion > h1{
+    font-size: 40px;
+    color: #000;
+}
+.texto_financiacion{
+    margin-top: 20px;
     
+
+}
+.texto_financiacion > p{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-right: 115px;
+}
+.seccion_ops{
+    display: flex;
+    justify-content: center;
+}
+
+.foto1{
+    margin-top: 50px;
+}
+
+.opciones-financiacion{
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.opciones-financiacion>h2{
+    display: flex;
+    border-style: hidden hidden solid;
+    justify-content: left;
+    margin-bottom: 12px;
+}
+
+.seccion_requisitos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    color: #FDB911;
+    margin-top: 60px;
+}
+.requisitos-financiacion>h2{
+    
+    margin-right: 800px;
+    color: #FDB911;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-style: hidden hidden solid;
 }
