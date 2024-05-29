@@ -355,70 +355,61 @@ header::before {
     border-radius: 0px;
 }
 
-.ig {
+
+
+
+/* ////////////////////////////FOOTER////////////////////////// */
+#social-media {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#social-media h2 {
+    color: #FDB911;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-style: hidden hidden solid;
+}
+
+.social-links {
     display: flex;
-    justify-content: center;
-    color: #e4196d;
-    border: 2px solid #e4196d;
-    width: 100%;
-    padding: 7px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+
+.social-button {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
     border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
-.ig:hover {
-    background-color: #e4196d;
-    color: #000;
-    transition: ease-in-out .2s;
+.social-button.instagram {
+    background-color: #e4405f;
 }
 
-.facebook {
-    display: flex;
-    justify-content: center;
-    color: rgb(0, 26, 255);
-    border: 2px solid rgb(0, 26, 255);
-    width: 100%;
-    padding: 7px;
-    border-radius: 5px;
+.social-button.facebook {
+    background-color: #3b5998;
 }
 
-.facebook:hover {
-    background-color: rgb(0, 26, 255);
-    color: #000;
-    transition: ease-in-out .2s;
+.social-button.whatsapp {
+    background-color: #25d366;
 }
 
-.whats {
-    display: flex;
-    justify-content: center;
-    color: green;
-    border: 2px solid green;
-    width: 100%;
-    padding: 7px;
-    border-radius: 5px;
+.social-button.twitter {
+    background-color: #1da1f2;
 }
 
-.whats:hover {
-    background-color: green;
-    color: #000;
-    transition: ease-in-out .2s;
-
+.social-button:hover {
+    opacity: 0.5;
 }
 
-.twit {
-    display: flex;
-    justify-content: center;
-    color: white;
-    border: 2px solid white;
-    width: 100%;
-    padding: 7px;
-    border-radius: 5px;
-}
 
-.twit:hover {
-    background-color: #fff;
-    color: #000;
-    transition: ease-in-out .2s;
-}
 
 
 
@@ -467,14 +458,21 @@ h2 {
 label {
     font-weight: bold;
     margin-top: 5px;
-    border-radius: 5px;
+    margin-left: 115px;
+    border-radius: 20px;
+}
+
+input{
+    margin-left: 115px;
+    border-radius: 25px;
+    width: 320px;
 }
 
 .formulario {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 550px;
+    width: 400px;
     height: 300px;
     font-family: 'Audiowide', sans-serif;
 }
@@ -553,7 +551,6 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     padding: 50px;
     width: 100%;
     height: 400px;
@@ -561,11 +558,87 @@ label {
     color: #FDB911;
     margin-top: 60px;
 }
+.foto2>img{
+    border-radius: 15px;
+}
 .requisitos-financiacion>h2{
     
-    margin-right: 800px;
+    margin-right: 400px;
     color: #FDB911;
-    margin-top: 40px;
     margin-bottom: 20px;
     border-style: hidden hidden solid;
+}
+
+.seccion_solicitud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: #FDB911;
+    color: #000;
+}
+
+.foto3>img{
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.proceso-solictud>h2{
+
+    margin-left: 300px;
+    color: #000;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    border-style: hidden hidden solid;
+}
+.proceso-solictud>p{
+    margin-left: 200px;
+    justify-content: right;
+
+}
+.seccion_beneficios{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background-color: #000;
+}
+
+.beneficios{
+    margin-left: 70px;
+    color: #FDB911;
+}
+.beneficios>h2{
+    color: #FDB911;
+    border-style: hidden hidden solid;
+    margin-bottom: 20px;
+}
+.iconbeneficios>img{
+    margin-left: 250px;
+}
+
+.seccion_preguntas{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background-color: #FDB911;
+}
+.preguntasfreq{
+    margin-left: 70px;
+    color: #000;
+}
+.preguntasfreq>h2{
+    color: #000;
+    border-style: hidden hidden solid;
+    margin-bottom: 20px;
+}
+.iconquestion>img{
+    margin-right: 150px;
 }
