@@ -359,14 +359,14 @@ header::before {
 
 
 /* ////////////////////////////FOOTER////////////////////////// */
-#social-media {
+.social-media {
     background-color: #000;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-#social-media h2 {
+.social-media >h2 {
     color: #FDB911;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -624,7 +624,6 @@ input{
     display: flex;
     justify-content: right;
     align-items: center;
-    
     width: 100%;
     height: 400px;
     padding: 50px;
@@ -641,4 +640,76 @@ input{
 }
 .iconquestion>img{
     margin-right: 150px;
+}
+
+
+/* /////////////////////SEGUROS Y ASISTENCIAS//////////////////// */
+.fondo{
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 530px;
+    
+
+}
+.seguros-asistencias{
+    /* background-color: #000; */
+    backdrop-filter: brightness(30%);
+    height: 530px;
+    
+}
+.seguros-asistencias > h2 {
+    color: #FDB911;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.opciones-seguros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.seguros {
+    background-color: #FDB911;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.seguros:hover {
+    transform: translateY(-10px);
+}
+
+.servicios{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FDB911;
+}
+
+.servicios-asistencias{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.seguros2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FDB911;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.seguros2:hover {
+    transform: translateY(-10px);
 }
